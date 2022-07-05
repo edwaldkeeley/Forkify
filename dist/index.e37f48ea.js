@@ -2603,21 +2603,11 @@ try {
 },{}],"k5Hzs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "API_URL", ()=>API_URL);
-parcelHelpers.export(exports, "TIMEOUT_SEC", ()=>TIMEOUT_SEC);
-parcelHelpers.export(exports, "RES_PER_PAGE", ()=>RES_PER_PAGE);
-parcelHelpers.export(exports, "KEY", ()=>KEY);
-parcelHelpers.export(exports, "MODAL_CLOSE_SEC", ()=>MODAL_CLOSE_SEC);
 parcelHelpers.export(exports, "API_URL2", ()=>API_URL2);
 parcelHelpers.export(exports, "TIMEOUT_SEC2", ()=>TIMEOUT_SEC2);
 parcelHelpers.export(exports, "RES_PER_PAGE2", ()=>RES_PER_PAGE2);
 parcelHelpers.export(exports, "KEY2", ()=>KEY2);
 parcelHelpers.export(exports, "MODAL_CLOSE_SEC2", ()=>MODAL_CLOSE_SEC2);
-const API_URL = "https://forkify-api.herokuapp.com/api/v2/recipes/";
-const TIMEOUT_SEC = 10;
-const RES_PER_PAGE = 10;
-const KEY = "<YOUR_KEY>";
-const MODAL_CLOSE_SEC = 2.5;
 const API_URL2 = "https://forkify-api.herokuapp.com/api/v2/recipes/";
 const TIMEOUT_SEC2 = 5;
 const RES_PER_PAGE2 = 10;
